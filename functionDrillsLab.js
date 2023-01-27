@@ -12,7 +12,8 @@
 */
 
 //CODE HERE
-
+const helloWorld = () => console.log("Hello, World!");
+helloWorld();
 
 ////////////////// PROBLEM 2 ////////////////////
 
@@ -21,7 +22,9 @@
 */
 
 //CODE HERE
-
+const jsNinja = () =>{
+  return 'I am a JavaScript ninja!';
+}
 
 ////////////////// PROBLEM 3 ////////////////////
 /*
@@ -31,7 +34,8 @@
 */
 
 //CODE HERE
-
+const printName = (name) => console.log(name);
+printName('Keldon');
 
 ////////////////// PROBLEM 4 ////////////////////
 /*
@@ -282,13 +286,13 @@ function pond() {
 */
 
 //This array should contain the variable names (as strings) accessible in the global scope.
-let globalScope = []
+let globalScope = ["duck"]
 
 //This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = []
+let bathroomScope = ["rubberDuck", "sailorDuck","duck" ]
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = []
+let bathtubScope = ["sailorDuck", "duck"]
 
 //This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = []
+let pondScope = ["realDuck", "duck"]
