@@ -268,6 +268,7 @@ let sampleArray = [0,1,2,3,4,7,5,6,8,9]
 
 let duck = "cute";
 
+
 function bathroom() {
   let rubberDuck = "squeaky";
   function bathtub() {
